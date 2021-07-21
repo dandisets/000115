@@ -5,9 +5,31 @@
 about: []
 access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 9103697961133
+  numberOfFiles: 57
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rat; norway rat; rats; brown rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - Position
 citation: Gillespie, Anna; Frank, Loren (2021) Gillespie et al (2021) Hippocampal
   replay reflects specific past experiences rather than a plan for subsequent choice
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000115/draft
