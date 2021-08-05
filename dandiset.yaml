@@ -68,7 +68,8 @@ identifier: DANDI:000115
 keywords: []
 license:
 - spdx:CC-BY-NC-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000115/versions/draft/assets/
 name: Gillespie et al (2021) Hippocampal replay reflects specific past experiences
   rather than a plan for subsequent choice
 protocol: []
