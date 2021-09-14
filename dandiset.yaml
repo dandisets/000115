@@ -123,9 +123,9 @@ contributor:
 dateCreated: '2021-07-09T01:01:19.688366+00:00'
 description: 'This dataset includes the electrophysiological (dorsal CA1 tetrodes)
   and behavioral (port triggers, reward delivery, and position tracking) data from
-  Gillespie et al (2021) "Hippocampal replay reflects specific past experiences rather
-  than a plan for subsequent choice". For more information about this data, please
-  contact Anna Gillespie or Loren Frank. '
+  Gillespie et al, Neuron 2021: "Hippocampal replay reflects specific past experiences
+  rather than a plan for subsequent choice". For more information about this data,
+  please contact Anna Gillespie or Loren Frank. '
 ethicsApproval: []
 id: DANDI:000115/draft
 identifier: DANDI:000115
@@ -138,6 +138,11 @@ name: Gillespie et al (2021) Hippocampal replay reflects specific past experienc
   rather than a plan for subsequent choice
 protocol: []
 relatedResource:
+- name: Hippocampal replay reflects specific past experiences rather than a plan for
+    subsequent choice
+  relation: dcite:Describes
+  schemaKey: Resource
+  url: https://www.cell.com/neuron/fulltext/S0896-6273(21)00573-0
 - name: Hippocampal replay reflects specific past experiences rather than a plan for
     subsequent choice
   relation: dcite:Describes
