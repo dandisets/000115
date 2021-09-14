@@ -33,7 +33,7 @@ assetsSummary:
 citation: Gillespie, Anna; Astudillo Maya, Daniela; Denovellis, Eric; Liu, Daniel;
   Kastner, David; Coulter, Michael; Roumis, Demetris; Frank, Loren (2021) Gillespie
   et al (2021) Hippocampal replay reflects specific past experiences rather than a
-  plan for subsequent choice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000115/draft
+  plan for subsequent choice (Version 0.210914.1732) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000115/0.210914.1732
 contributor:
 - affiliation:
   - identifier: https://ror.org/043mz5j54
@@ -121,22 +121,36 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2021-07-09T01:01:19.688366+00:00'
+datePublished: '2021-09-14T17:32:35.958060+00:00'
 description: 'This dataset includes the electrophysiological (dorsal CA1 tetrodes)
   and behavioral (port triggers, reward delivery, and position tracking) data from
   Gillespie et al, Neuron 2021: "Hippocampal replay reflects specific past experiences
   rather than a plan for subsequent choice". For more information about this data,
   please contact Anna Gillespie or Loren Frank. '
+doi: 10.48324/dandi.000115/0.210914.1732
 ethicsApproval: []
-id: DANDI:000115/draft
+id: DANDI:000115/0.210914.1732
 identifier: DANDI:000115
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000115/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000115/0.210914.1732/assets.yaml
 name: Gillespie et al (2021) Hippocampal replay reflects specific past experiences
   rather than a plan for subsequent choice
 protocol: []
+publishedBy:
+  endDate: '2021-09-14T17:32:35.958060+00:00'
+  id: urn:uuid:fd736f73-0395-49c5-8aa6-428b08b5980b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-09-14T17:32:35.958060+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c5c8fb01-44ca-4b8b-b6c0-ed319b7034db
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Hippocampal replay reflects specific past experiences rather than a plan for
     subsequent choice
@@ -151,6 +165,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000115/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000115/0.210914.1732
+version: 0.210914.1732
 wasGeneratedBy: []
