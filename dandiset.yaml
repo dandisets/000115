@@ -3,7 +3,9 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -39,7 +41,7 @@ assetsSummary:
   - BehavioralEvents
   - ProcessingModule
 citation: Gillespie, Anna; Astudillo Maya, Daniela; Denovellis, Eric; Liu, Daniel;
-  Kastner, David; Coulter, Michael; Roumis, Demetris; Frank, Loren (2022) Gillespie
+  Kastner, David; Coulter, Michael; Roumis, Demetris; Frank, Loren (2024) Gillespie
   et al (2021) Hippocampal replay reflects specific past experiences rather than a
   plan for subsequent choice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000115/draft
 contributor:
